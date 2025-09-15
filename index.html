@@ -2,73 +2,147 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Osamah Alameri - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f5f5f5; color: #333;
-    }
-    header {
-      background: #222; color: #fff;
-      text-align: center; padding: 2rem;
-    }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { font-size: 1.2rem; margin-top: 0.5rem; }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    h2 { color: #444; }
-    ul { padding-left: 20px; }
-    footer {
-      text-align: center; padding: 1rem;
-      background: #222; color: #fff; margin-top: 2rem;
-    }
-    a {
-      color: #007bff; text-decoration: none;
-    }
-    a:hover { text-decoration: underline; }
-  </style>
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@your_twitter_handle">
+  <meta name="twitter:creator" content="@your_twitter_handle">
+  <meta name="twitter:title" content="Your Name - Portfolio">
+  <meta name="twitter:description" content="Professional portfolio showcasing my skills, services, and projects.">
+  <meta name="twitter:image" content="assets/images/social-media-thumbnail.jpg">
+  <!-- LinkedIn & Facebook Card -->
+  <meta property="og:title" content="Your Name - Portfolio" />
+  <meta property="og:image" content="assets/images/social-media-thumbnail.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Professional portfolio showcasing my skills, services, and projects." />
+  <meta property="og:url" content="https://yourportfolio.com" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Your Name - Portfolio</title>
 </head>
 <body>
-  <header>
-    <h1>Osamah Alameri</h1>
-    <p>Mechatronics Engineer | IoT & Automation Enthusiast</p>
-  </header>
-
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I’m a Mechatronics Engineer passionate about IoT systems, industrial automation,
-      and control systems. Skilled in PCB design, SCADA integration, and application development.
-    </p>
+  <nav class="site-header">
+    <div class="nav-logo">
+      <a href="index.html">
+        <img src="assets/images/logo.png" alt="logo" width="314" height="60">
+      </a>
+    </div>
+    <button class="hamburger"><img src="assets/images/menu.png" alt="menu toggle icon"></button>
+    <div class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="banner">
+    <div class="banner--content" data-aos="fade-in" data-aos-duration="2000">
+      <h3 class="name"></h3>
+      <h1 class="designation"></h1>
+      <p class="tagline"></p>
+    </div>
   </section>
-
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>🌐 Smart Electricity Meter with AI Monitoring</li>
-      <li>⚙️ Horizontal Plastic Silo Filling Machine (Graduation Project)</li>
-      <li>📱 IoT-based Health Diagnostics using ESP32 & Flutter</li>
-      <li>☀️ Solar Energy System Design & Integration</li>
-    </ul>
+  <section class="promo">
+    <div class="content" data-aos="fade-up" data-aos-offset="50">
+      <h2></h2>
+      <p></p>
+    </div>
   </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:osamah.alameri@example.com">osamah.alameri@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/osamahalameri" target="_blank">linkedin.com/in/osamahalameri</a></p>
-    <p>GitHub: <a href="https://github.com/OsamahAlameri" target="_blank">github.com/OsamahAlameri</a></p>
+  <section id="about">
+    <div class="content">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-container-left" data-aos="fade-up-right" data-aos-duration="1000">
+          <p class="about-text"></p>
+          <h3 class="about-title"></h3>
+          <ul class="about-list"></ul>
+          <p class="about-text-2"></p>
+          <h4 class="about-subtitle"></h4>
+          <p class="about-text-3"></p>
+        </div>
+        <div class="about-container-right" data-aos="fade-up-left" data-aos-duration="1500">
+          <img src="assets/images/headshot.jpg" alt="your name, headshot">
+        </div>
+      </div>
+    </div>
   </section>
-
-  <footer>
-    <p>&copy; 2025 Osamah Alameri</p>
+  <section id="skill">
+    <div class="content skill--content">
+      <div class="left">
+        <h2>My Skills & Expertise</h2>
+        <p class="skills-text"></p>
+      </div>
+      <div class="right skills-list"></div>
+    </div>
+  </section>
+  <section id="service">
+    <h2>Services I Offer</h2>
+    <div class="content service--content" data-aos="fade-up" data-aos-duration="3000"></div>
+  </section>
+  <section id="portfolio">
+    <h2 class="center">Portfolio - My Past Work Samples</h2>
+    <div class="content portfolio--content"></div>
+  </section>
+  <section id="testimonial">
+    <h2>Testimonial - What Clients Are Saying</h2>
+    <div class="content testimonial--content"></div>
+  </section>
+  <section id="pricing" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
+    <h2 class="center">Pricing</h2>
+    <p class="center pricing-text"></p>
+    <div class="pricing--content"></div>
+  </section>
+  <section id="contact">
+    <div class="content">
+      <h2 class="center">Contact Me</h2>
+      <p class="center contact-detail"></p>
+      <address>
+        <p>Email: <a href="mailto:your.email@example.com" class="email"></a></p>
+        <p>Phone: <a href="tel:+1234567890" class="phone"></a></p>
+        <p>Address: <span class="address"></span></p>
+      </address>
+    </div>
+  </section>
+  <div class="social-share" data-aos="fade-up" data-aos-offset="200" data-aos-anchor-placement="center-top">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourportfolio.com" target="_blank"><img src="assets/svg/facebook.svg" alt="share on facebook"></a>
+    <a href="https://twitter.com/intent/tweet?url=https://yourportfolio.com&text=" target="_blank"><img src="assets/svg/twitter.svg" alt="share on twitter"></a>
+    <a href="https://pinterest.com/pin/create/button/?url=https://yourportfolio.com&media=&description=" target="_blank"><img src="assets/svg/pinterest.svg" alt="share on pinterest"></a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://yourportfolio.com" target="_blank"><img src="assets/svg/linkedin.svg" alt="share on linkedin"></a>
+  </div>
+  <footer class="site-footer">
+    <div class="content site-footer--content">
+      <div class="footer-left">
+        <img src="assets/images/logo-footer.png" alt="logo">
+        <p class="footer-text"></p>
+      </div>
+      <div class="footer-right">
+        <address>
+          <p>Email: <a href="mailto:your.email@example.com" class="email"></a></p>
+          <p>Phone: <a href="tel:+1234567890" class="phone"></a></p>
+          <p>Address: <span class="address"></span></p>
+        </address>
+      </div>
+    </div>
+    <div class="copyright-notice">
+      <p>&copy; <time datetime="2025">2025</time>, All rights reserved by <span class="name"></span></p>
+    </div>
   </footer>
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
