@@ -1,0 +1,144 @@
+{
+  "banner": {
+    "name": "Your Name",
+    "designation": "Freelance Graphic Designer",
+    "tagline": "Transforming ideas into stunning visuals."
+  },
+  "promo": {
+    "title": "We bring your <span class='bold'>ideas</span> to life<span class='orange'>.</span>",
+    "description": "Great ideas, beautifully executed & commercially sound."
+  },
+  "about": {
+    "text": "I'm a passionate graphic designer with over 5 years of experience in creating visually compelling designs.",
+    "title": "Creative Expertise",
+    "list": [
+      "Specialized in branding and visual identity",
+      "Expert in Adobe Creative Suite",
+      "Focused on client satisfaction"
+    ],
+    "text_2": "My goal is to deliver designs that not only look good but also resonate with your audience.",
+    "subtitle": "Client-Centric Approach",
+    "text_3": "I work closely with clients to understand their vision and bring it to life with precision."
+  },
+  "skills": {
+    "text": "I specialize in a variety of design tools and techniques to bring your projects to life.",
+    "list": [
+      {
+        "name": "Adobe Photoshop",
+        "image": "assets/images/photoshop.png",
+        "description": "Expert in photo editing and digital art creation."
+      },
+      {
+        "name": "Adobe Illustrator",
+        "image": "assets/images/illustrator.png",
+        "description": "Proficient in vector graphics and logo design."
+      },
+      {
+        "name": "Adobe InDesign",
+        "image": "assets/images/indesign.png",
+        "description": "Skilled in layout design for print and digital media."
+      }
+    ]
+  },
+  "services": [
+    {
+      "name": "Logo Design",
+      "image": "assets/images/logo-design.png",
+      "description": "Custom logos that define your brand identity.",
+      "link": "#contact"
+    },
+    {
+      "name": "Packaging Design",
+      "image": "assets/images/packaging-design.png",
+      "description": "Eye-catching packaging solutions for products.",
+      "link": "#contact"
+    },
+    {
+      "name": "3D Image Manipulation",
+      "image": "assets/images/3d-image-design.png",
+      "description": "Creative 3D visuals for impactful presentations.",
+      "link": "#contact"
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Project One",
+      "image": "assets/images/project-one.jpg"
+    },
+    {
+      "name": "Project Two",
+      "image": "assets/images/project-two.jpg"
+    },
+    {
+      "name": "Project Three",
+      "image": "assets/images/project-three.png"
+    },
+    {
+      "name": "Project Four",
+      "image": "assets/images/project-four.jpg"
+    },
+    {
+      "name": "Project Five",
+      "image": "assets/images/project-five.jpg"
+    },
+    {
+      "name": "Project Six",
+      "image": "assets/images/project-six.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "An exceptional designer who brought our brand vision to life!",
+      "author": "Jane Smith",
+      "company": "CEO, Creative Solutions"
+    },
+    {
+      "quote": "Professional, timely, and creative. Highly recommend!",
+      "author": "John Doe",
+      "company": "Founder, Tech Innovate"
+    },
+    {
+      "quote": "The designs exceeded our expectations. Truly outstanding work.",
+      "author": "Emily Johnson",
+      "company": "Marketing Director, BrandX"
+    },
+    {
+      "quote": "A pleasure to work with, delivering top-notch designs every time.",
+      "author": "Michael Brown",
+      "company": "Owner, Startup Hub"
+    }
+  ],
+  "pricing": {
+    "text": "I charge $30/hour (USD). For specific tasks, see my fixed pricing below.",
+    "list": [
+      {
+        "name": "Logo Design",
+        "price": "$235",
+        "image": "assets/images/logo-design.png",
+        "description": "1 Professional Logo Design in transparent format (PNG)."
+      },
+      {
+        "name": "Packaging Design",
+        "price": "$450",
+        "image": "assets/images/packaging-design.png",
+        "description": "Print-ready design label or packaging for one product."
+      },
+      {
+        "name": "Illustrate Album Cover",
+        "price": "$370",
+        "image": "assets/images/3d-image-design.png",
+        "description": "Hi-res front cover image for streaming platforms."
+      }
+    ]
+  },
+  "contact": {
+    "detail": "Let's collaborate to bring your ideas to life. Reach out to discuss your project!",
+    "email": "your.email@example.com",
+    "phone": "+1234567890",
+    "address": "Box 564, Manchester, England"
+  },
+  "footer": {
+    "text": "I'm dedicated to creating impactful designs that elevate your brand. Let's work together to achieve your vision.",
+    "name": "Your Name"
+  }
+}
